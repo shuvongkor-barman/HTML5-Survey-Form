@@ -1,0 +1,85 @@
+body {
+  font-family: tahoma;
+  background-color: green;
+  text-align: center;
+  min-width: 320px;
+  
+}
+
+p#description {
+  font-size: 20px;
+}
+
+#main-form {
+  background-color: #d5e2f2;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 900px;
+  width: 75%;
+  border-radius: 10px;
+    
+}
+
+.lebels {
+  text-align: right;
+  display: inline-block;
+  width: 20%;
+  padding: 5px;
+  
+  
+}
+
+.rightItem {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+ }
+
+.input-box {
+  height: 15px;
+  width: 300px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.dropdowns {
+  height: 30px;
+  width: 200px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.publicRating, input[type="checkbox"] {
+  flotat: left;
+  margin-top: 5px;
+  margin-right: 10px;
+  
+}
+
+
+.radio {
+  position: relative;
+  display: block;
+   
+}
+
+textarea#comments {
+  height: 80px;
+  resize: vertical;
+}
+
+
+#submit {
+  height: 40px;
+  width: 80px;
+  font-size: 1em;
+  background-color: silver;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
