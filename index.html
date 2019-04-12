@@ -1,0 +1,101 @@
+<h1 id="title">Survey Form</h1>
+<div id="main-form">
+<p id="description">Let Us Know What Do You Expect From Your Goverment ?</p>
+
+<form id="survey-form">
+ 
+  <div class="rowItem">
+  <div class="lebels">
+  <lebel id="name-lebel" for="name"> ✪ Full Name: </lebel>
+  </div>
+  <div class="rightItem">
+ <input autofocus type="text" id="name" name="name" placeholder="Enter Your Name" required class="input-box" >
+  </div>
+  </div>
+  
+  <div class="rowItem">
+  <div class="lebels">
+  <lebel id="email-lebel" for="email"> ✪ Email: </lebel>
+  </div>
+  <div class="rightItem">
+  <input autofocus type="email" id="email" email="email" placeholder="Enter Your Email" required class="input-box">
+  </div>
+  </div>
+
+ <div class="rowItem">
+<div class="lebels">
+<lebel id="number-lebel" for="age"> ✪ Age: </lebel>
+</div>
+  <div class="rightItem">
+  <input autofocus type="number" id="age" age="age" min="8" max="60" placeholder="Enter Your Age" required class="input-box">
+  </div>
+  </div>
+  
+ <div class="rowItem">
+<lebel for="currentPos"> Which best describe your current position? </lebel>
+
+ <div class="rightItem">  
+<select id="dropdown" class="dropdowns">
+  <option disabled value>Please Select from below</option>
+  <option value="student">Student</option>
+  <option value="job">Full Time Job</option>
+  <option value="freelancer">Freelancer</option>
+  <option value="learner">Full Time Learner</option>
+  <option value="unemployed">Unemployed</option>
+  <option value="preferNo">Prefer not to say</option>
+  <option value="other">Other</option>
+</select>
+   </div>
+</div>
+
+  
+  
+ 
+<div class="rowItem">
+<lebel for="publicRating"> How do you feel about the current Government ? </lebel>
+<div class="rightItem">
+
+  <ul style="list-style:none";>
+  <li class="radio"><input value="1" type="radio" name="radio-button" class="publicRating">Happy</li>
+    
+    <li class="radio"><input value="2" type="radio" name="radio-button" class="publicRating">Good</li>
+ <li class="radio"><input value="3" type="radio" name="radio-button" class="publicRating">Bad</li>
+    <li class="radio"><input value="4" type="radio" name="radio-button" class="publicRating">Average</li>
+    <li class="radio"><input value="5" type="radio" name="radio-button" class="publicRating">Angry</li>
+<li class="radio"><input value="6" type="radio" name="radio-button" class="publicRating">Disappointed</li>
+<li class="radio"><input value="7" type="radio" name="radio-button" class="publicRating">Nothing</li>
+</ul>
+
+  </div>
+</div>
+
+
+
+<div class="rowItem">
+<lebel> What do you think that the Government should focus on ?</lebel>
+<div class="rightItem">
+<ul style="list-style:none;" id="yourIdea">
+<li><input type="checkbox" value="1">Road</input></li>
+<li><input type="checkbox" value="2">Trafic System</input></li>
+<li><input type="checkbox" value="3">Education System</input></li>
+<li><input type="checkbox" value="4">Employment System</input></li>
+<li><input type="checkbox" value="5">Populaton Control</input></li>
+</ul>
+</div>
+</div>
+
+
+<div class="rowItem">
+<lebel>What is your opinion ?</lebel>
+
+<div class="rightItem">
+   <textarea id="comments" placeholder="Write Your Opinion" class="input-box" name="comment"></textarea>
+  
+  </div>
+</div>
+<button type="submit" id="submit">Submit</button>
+
+
+</form>
+
+</div>
